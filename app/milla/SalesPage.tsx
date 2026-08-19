@@ -21,6 +21,24 @@ const heroByAngle: Record<Angle, { tag: string; title: string; body: string; cta
   },
 };
 
+const heroTitleLines: Record<Angle, [string, string, string]> = {
+  a1: [
+    "Você não precisa perder",
+    "mais dinheiro para descobrir se",
+    "o digital funciona pra você.",
+  ],
+  a2: [
+    "Tráfego pago não deveria",
+    "ser o primeiro teste da sua",
+    "capacidade de vender.",
+  ],
+  a3: [
+    "Saia com Robô de Leads",
+    "+ IA Funcionária + uma rota",
+    "de Tráfego Livre.",
+  ],
+};
+
 const discoveries = [
   ["01", "Por que mudar a ordem", "Entenda por que tráfego pago pode funcionar e, ainda assim, não ser o melhor primeiro passo quando o caixa está curto."],
   ["02", "Como chegar ao público", "Veja como uma prospecção segmentada leva sua oferta até quem já pode precisar do produto, sem depender de alcance orgânico."],
@@ -64,7 +82,9 @@ export function SalesPage({ angle }: { angle: Angle }) {
         <div className="hero-glow" aria-hidden="true" />
         <div className="hero-copy">
           <p className="kicker"><i /> AULA AO VIVO · ROBÔS · IA <span>{hero.tag}</span></p>
-          <h1>{hero.title}</h1>
+          <h1 className="hero-title" aria-label={hero.title}>
+            {heroTitleLines[angle].map((line) => <span key={line} aria-hidden="true">{line}</span>)}
+          </h1>
           <p className="hero-body">{hero.body}</p>
           <a className="primary-cta" href="#oferta"><span>{hero.cta}</span><Arrow /></a>
           <div className="hero-notes">
