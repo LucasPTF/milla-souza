@@ -10,11 +10,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: new URL(origin),
-    title: "Ativação SD — Sistema Destrave | Milla Souza",
+    title: "Ativação SD | Sistema Destrave | Milla Souza",
     description:
       "Conheça uma rota de Tráfego Livre com Robô de Leads e IA Funcionária para começar sem depender de anúncios ou conteúdo em massa.",
     openGraph: {
-      title: "Ativação SD — Sistema Destrave",
+      title: "Ativação SD | Sistema Destrave",
       description: "Uma nova rota para quem já tentou vender no digital e cansou de pagar para testar.",
       type: "website",
       locale: "pt_BR",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Ativação SD — Sistema Destrave",
+      title: "Ativação SD | Sistema Destrave",
       description: "Tráfego Livre, Robô de Leads e IA Funcionária.",
       images: ["/milla/og.png"],
     },

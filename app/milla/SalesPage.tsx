@@ -4,7 +4,7 @@ const heroByAngle: Record<Angle, { tag: string; title: string; body: string; cta
   a1: {
     tag: "DOR + NOVA SAÍDA",
     title: "Você não precisa perder mais dinheiro para descobrir se o digital funciona pra você.",
-    body: "Você já tentou anúncio, criativo e estratégia. Talvez o problema não tenha sido sua capacidade — mas começar por uma rota que cobra enquanto você ainda está testando.",
+    body: "Você já tentou anúncio, criativo e estratégia. Talvez o problema não tenha sido sua capacidade. O problema pode ter sido começar por uma rota que cobra enquanto você ainda está testando.",
     cta: "QUERO CONHECER ESSA OUTRA ROTA",
   },
   a2: {
@@ -16,14 +16,14 @@ const heroByAngle: Record<Angle, { tag: string; title: string; body: string; cta
   a3: {
     tag: "RESULTADO + QUEBRA DE OBJEÇÃO",
     title: "Saia com Robô de Leads + IA Funcionária + uma rota de Tráfego Livre.",
-    body: "Em até 2 horas, entenda a estrutura, veja os robôs funcionando e aprenda como começar uma prospecção segmentada — sem tráfego pago, sem aparecer e sem conteúdo em massa.",
+    body: "Em até 2 horas, entenda a estrutura, veja os robôs funcionando e aprenda como começar uma prospecção segmentada. Tudo isso sem tráfego pago, sem aparecer e sem conteúdo em massa.",
     cta: "QUERO ATIVAR O SISTEMA",
   },
 };
 
 const discoveries = [
   ["01", "Por que mudar a ordem", "Entenda por que tráfego pago pode funcionar e, ainda assim, não ser o melhor primeiro passo quando o caixa está curto."],
-  ["02", "Como chegar ao público", "Veja como uma prospecção segmentada leva sua oferta até quem já pode precisar do produto — sem depender de alcance orgânico."],
+  ["02", "Como chegar ao público", "Veja como uma prospecção segmentada leva sua oferta até quem já pode precisar do produto, sem depender de alcance orgânico."],
   ["03", "Onde os robôs entram", "Descubra como automações assumem tarefas repetitivas para você focar em oferta, conversa e decisão."],
   ["04", "Como aplicar a rota", "Saia com as ferramentas iniciais e a lógica para começar a testar a estrutura no seu contexto."],
 ];
@@ -47,7 +47,7 @@ export function SalesPage({ angle }: { angle: Angle }) {
   return (
     <main>
       <header className="topbar">
-        <a className="wordmark" href="#top" aria-label="Ativação SD — início">
+        <a className="wordmark" href="#top" aria-label="Ativação SD, início">
           <span className="brand-orbit">SD</span>
           <span><strong>ATIVAÇÃO</strong><small>SISTEMA DESTRAVE</small></span>
         </a>
@@ -91,7 +91,7 @@ export function SalesPage({ angle }: { angle: Angle }) {
         <div className="section-label"><span>01</span> UMA NOVA LEITURA</div>
         <div className="shift-heading">
           <h2>Talvez o problema<br />nunca tenha sido <em>você.</em></h2>
-          <p>Você entrou no digital com esperança. Seguiu a rota que parecia óbvia. Comprou curso, montou criativo, subiu campanha — e viu dinheiro sair antes de entender o que precisava validar.</p>
+          <p>Você entrou no digital com esperança. Seguiu a rota que parecia óbvia. Comprou curso, montou criativo e subiu campanha. Então viu dinheiro sair antes de entender o que precisava validar.</p>
         </div>
         <div className="before-after">
           <article className="before">
@@ -127,7 +127,7 @@ export function SalesPage({ angle }: { angle: Angle }) {
         <div className="section-label"><span>03</span> ATIVAÇÃO SD</div>
         <div className="system-intro">
           <div><p className="eyebrow">O SISTEMA DESTRAVE</p><h2>Uma rota inicial que combina <em>Tráfego Livre + Robôs + IA.</em></h2></div>
-          <p>A Ativação SD é uma aula ao vivo de até 2 horas para quem já tentou vender no digital e precisa de uma forma diferente de chegar a possíveis clientes — sem transformar anúncios em obrigação.</p>
+          <p>A Ativação SD é uma aula ao vivo de até 2 horas para quem já tentou vender no digital e precisa de uma forma diferente de chegar a possíveis clientes, sem transformar anúncios em obrigação.</p>
         </div>
         <div className="pipeline" aria-label="O sistema em quatro movimentos">
           <article><span>01</span><b>PÚBLICO CERTO</b><small>Encontre quem já pode precisar da oferta.</small></article>
@@ -164,7 +164,7 @@ export function SalesPage({ angle }: { angle: Angle }) {
           <h2>Milla não ensina uma teoria.<br /><em>Ela viveu a virada.</em></h2>
           <p>Começou a empreender aos 11 anos. Aos 15, abriu a primeira loja e transformou aquele começo simples em três lojas, com mais de 10 funcionários.</p>
           <p>Quando decidiu migrar para o digital, entrou na mesma sequência que talvez você conheça: curso, criativo, campanha, mais teste e mais dinheiro saindo. Passou meses sem encontrar o retorno que precisava e chegou a pensar que o digital não era para ela.</p>
-          <blockquote>“Quando comecei a trabalhar com os robôs, percebi que poderia vender com mais leveza — sem ver dinheiro saindo todos os dias.”</blockquote>
+          <blockquote>“Quando comecei a trabalhar com os robôs, percebi que poderia vender com mais leveza e sem ver dinheiro saindo todos os dias.”</blockquote>
           <p>Hoje, depois de cerca de 3 anos aplicando a estratégia, Milla relata quase R$ 1 milhão faturado no digital e mais de 5 mil alunos utilizando seus robôs.</p>
         </div>
       </section>
@@ -224,7 +224,7 @@ export function SalesPage({ angle }: { angle: Angle }) {
         <div className="final-grid" aria-hidden="true" />
         <p className="eyebrow">A PRÓXIMA TENTATIVA PODE COMEÇAR DIFERENTE</p>
         <h2>Não abandone o sonho.<br /><em>Mude a estratégia.</em></h2>
-        <p>Conheça a rota que combina Tráfego Livre, Robô de Leads e IA — sem transformar anúncios em condição para começar.</p>
+        <p>Conheça a rota que combina Tráfego Livre, Robô de Leads e IA. Nela, anúncios não são condição para começar.</p>
         <a className="primary-cta" href="#oferta"><span>QUERO ATIVAR O SISTEMA</span><Arrow /></a>
       </section>
 
